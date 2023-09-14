@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: orange;
+}
+
+.pokemon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.pokemon-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 15px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.button-wrapper button {
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: blue;
+    color: yellow;
+    font-size: 28px;
+    cursor: pointer;
+}

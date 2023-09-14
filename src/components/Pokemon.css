@@ -1,0 +1,25 @@
+.pokemon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    background-color: white;
+}
+
+.pokemon-wrapper ul {
+    text-align: left;
+    list-style: none;
+}
+
+.pokemon-wrapper span {
+    font-weight: lighter;
+}
+
+.pokemon-wrapper ul {
+    font-weight: bold;
+}
+
+.pokemon-wrapper li {
+    font-weight: lighter;
+}
